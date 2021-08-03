@@ -7,6 +7,21 @@
     --buttonHover: #4E72EB;
     --yellowText: #E6DB5A;
     --greenText: #77D62E;
+    --css3Blue: rgb(11, 82, 214);
+    --yellowText: #F08D49;
+}
+
+.odd {
+    font-weight: 100;
+}
+
+.even {
+    font-weight: bold;
+    font-size: large;
+}
+
+.logoFont {
+    font-family: 'Racing Sans One', cursive;
 }
 
 body {
@@ -30,7 +45,7 @@ footer {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: var(--yellowText);
+    color: var(--textColorDarker);
 }
 
 footer {
@@ -64,7 +79,7 @@ footer .social>a:hover {
 }
 
 .checklist >li i {
-    /* color: var(--buttonHover); */
+    color: var(--yellowText);
 }
 
 code[class*="language-"],
@@ -72,7 +87,7 @@ pre[class*="language-"] {
     white-space: pre-wrap;            
     word-break: break-all;
     word-wrap: break-word;  
-    font-size: 1.5rem;                      
+    font-size: 1rem;                      
 }
 
 main>.container {
